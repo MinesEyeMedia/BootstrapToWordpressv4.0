@@ -5,3 +5,5 @@ Commit #1 - Initial commit. Basic skeleton built, assets and project directory s
 Commit #2 - Coded Hero Section - Html & CSS. Added proper Readme.md file.
 
 Commit #3 - Coded JS Parallax Effect and tied into heroSection bg.
+
+Commit #4 - Coded/Styled Opt-In Section & Pop-up Modal.

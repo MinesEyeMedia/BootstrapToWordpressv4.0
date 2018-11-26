@@ -76,7 +76,7 @@
                                 <span>$399</span>
                             </div>
                         </div>
-                        <p><a href="/" class="btn btn-lg btn-danger" role="button">Enroll &raquo;</a></p>
+                        <p><a href="/" class="btn btn-lg btn-danger" role="button">Enroll <i class="fas fa-angle-double-right"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,18 @@
     <!-- * OPT-IN SECTION
     * ============================================================ -->
     <section id="optin">
-        <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptates deserunt provident magnam ratione aut? Aliquam ipsam impedit dicta, necessitatibus sit quasi laborum dolor veritatis mollitia possimus tempore ipsa nisi ipsum tenetur magni officia, quo architecto odio iste ut? Inventore quibusdam atque laudantium, veniam aliquid praesentium sed placeat provident possimus molestias consectetur illo voluptas saepe incidunt corrupti. Facere impedit doloribus a architecto velit commodi. Iure, accusamus aliquam, facere perspiciatis incidunt ab facilis ea debitis omnis asperiores quaerat iste sequi reiciendis sint labore cupiditate quasi fugit similique cumque! Quam, quod doloribus rerum corrupti illum officiis, nostrum vero, odit quisquam sed soluta? Repellendus vitae saepe est in illum beatae voluptatum dignissimos ipsum, vel voluptates porro facilis architecto quos iure earum repudiandae numquam! Repudiandae optio porro consectetur soluta eos laboriosam, fugiat, aut reiciendis assumenda hic tempora beatae. Voluptates mollitia, at error asperiores doloremque deleniti ullam modi nulla unde consequatur, alias natus obcaecati! Molestias magni porro quidem quaerat nostrum optio quo suscipit ipsa harum ratione quia blanditiis unde omnis nobis, sunt quas. Distinctio voluptates delectus minus harum, modi qui tempore ad iusto, veniam commodi atque magnam repellendus doloribus voluptate? Debitis facere fugit illum, dolore, rem velit aut quod atque ex asperiores quia dolorem autem magni temporibus, tenetur architecto incidunt non soluta distinctio praesentium dicta sit expedita tempore! Temporibus debitis accusantium ea. Vitae, assumenda incidunt unde voluptatum necessitatibus impedit dolorem. Deserunt iusto laudantium ex, sit quo similique nulla veritatis eligendi velit, a facere ut illum rem illo eveniet nisi obcaecati soluta hic porro! Dicta nam maxime molestiae dolore voluptate ipsum tempora harum ad. Odio cumque maxime, veritatis reprehenderit aspernatur harum id dolorem optio, debitis impedit voluptates deserunt deleniti aut placeat, perspiciatis totam recusandae accusantium voluptate maiores autem tempore? Temporibus dolores optio, maxime ratione labore non tenetur ipsam dolorum recusandae quae id excepturi aliquid illum unde mollitia dicta! Explicabo, libero beatae repudiandae consequuntur quis iure tempore vel unde veniam quod, dolorum autem? Voluptates perferendis mollitia earum quidem quasi. Ipsum eum numquam ratione error, veniam sapiente iste repellendus debitis reprehenderit vitae esse ipsam recusandae, laboriosam quaerat totam. Exercitationem distinctio placeat ipsa impedit soluta maxime neque culpa, fuga animi, possimus facere repellat fugit magni consequuntur tempora? Maiores placeat quaerat nisi iusto quia voluptate perspiciatis mollitia quos, ullam id aliquid cum natus? Corporis modi vitae dolore doloremque optio nostrum, illo impedit enim, provident error saepe magni ab! Dolorum soluta ipsam fugiat! Dolores iste repudiandae suscipit delectus magni! Reprehenderit, aperiam. Mollitia quis numquam minima, libero qui velit consectetur modi! In, fugiat sequi? Libero laborum doloribus ipsam quia rerum, voluptates molestias similique accusantium, autem eos minus veniam quae dignissimos optio hic ratione repellendus saepe assumenda incidunt. Corporis itaque voluptate dolores dolore illum animi fuga error corrupti alias? Dolores aut voluptas rerum accusamus commodi consectetur sed, ab aliquid quasi. Debitis totam iusto doloremque similique cumque, tempore saepe id, repudiandae, ex sint ea! Ipsa dicta placeat nam, voluptate dolore adipisci odit distinctio a culpa non dignissimos officia esse tempora iure itaque dolor soluta nisi? Doloremque neque dolore vero iusto ex dolorum nesciunt voluptatibus?</div>
+        <div class="container">
+            <div class="row marker-row">
+                <div class="col-sm-8">
+                    <p class="lead"><strong>Subscribe to our mailing list.</strong> We'll send something special as a
+                        thank you.</p>
+                </div>
+                <div class="col-sm-4">
+                    <button class="btn btn-lg btn-block btn-success" role="button" data-toggle="modal" data-target="#subModal">Click
+                        here to subscribe!</button>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- * BOOST YOUR INCOME
     * ============================================================ -->
@@ -116,7 +127,51 @@
     <footer id="footer"></footer>
     <!-- * MODAL
     * ============================================================ -->
-    <section id="modal"></section>
+    <div class="modal" id="subModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="subModalLabel"><i class="fas fa-envelope pr-2"></i> Subscribe to
+                        the Mailing List</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Simply enter your name and email! As a thank you for joining us, we're going to give you one
+                        of our best-selling courses, <em>for free!</em></p>
+
+                    <form action="" role="form" class="">
+                        <div class="form-row">
+
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="sr-only" for="subscribe-name">Your first name</label>
+                                    <input type="text" class="form-control" id="subscribe-name" placeholder="your first name?">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="sr-only" for="subscribe-email">Your email</label>
+                                    <input type="email" class="form-control" id="subscribe-email" placeholder="and your email?">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <input type="submit" class="btn btn-danger mx-auto mt-1" value="Subscribe!">
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <p class="my-0 pt-0"><small>By providing your email you consent to receiving occasional promotional emails &amp;
+                            newsletters. <br>No spam, just good stuff. We respect your privacy &amp; you may unsubcribe
+                            at any time, promise.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- TODO: JAVASCRIPT & JQUERY -->
