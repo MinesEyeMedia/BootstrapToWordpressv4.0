@@ -9,3 +9,5 @@ Commit #3 - Coded JS Parallax Effect and tied into heroSection bg.
 Commit #4 - Coded/Styled 'Opt-In' Section & Pop-up Modal.
 
 Commit #5 - Coded/Styled 'Boost Your Income' Section.
+
+Commit #6 - Coded/Styled 'Who Should Take This Course' Section.
