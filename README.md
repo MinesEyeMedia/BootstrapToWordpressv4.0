@@ -23,3 +23,5 @@ Commit #10 - Coded/Styled 'Instructor' Section.
 Commit #11 - Coded/Styled 'Testimonials' Section.
 
 Commit #12 - Coded/Styled 'Sign Up' Bottom Section. Added 'Video Featurette' Parallax Effect.
+
+Commit #13 - Coded/Styled 'Footer'. Various tweaks, modal button fixing, nav menu spacing, etc.

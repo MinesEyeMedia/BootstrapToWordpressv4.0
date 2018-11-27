@@ -116,6 +116,14 @@ section h3 {
 }
 
 /* --------------------------------------------------------
+   NAVBAR
+-------------------------------------------------------- */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.25rem !important;
+    padding-left: 1.25rem !important;
+}
+
+/* --------------------------------------------------------
    HERO SECTION
 -------------------------------------------------------- */
 #hero {
@@ -481,4 +489,60 @@ blockquote:before {
 #signUp btn {
     font-size: 1.5rem;
     /* 24px */
+}
+
+/* --------------------------------------------------------
+   FOOTER
+-------------------------------------------------------- */
+footer {
+    background: var(--col-bluegry);
+    color: #fff;
+    font-size: 0.75rem;
+    /* 12px */
+    padding: 0.875rem 0;
+    /* 20px 0 10px */
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    padding: 0.125rem 0.25rem !important;
+    margin: 0.125rem 1rem !important;
+}
+
+footer a:link,
+footer a:visited {
+    color: #fff;
+}
+
+footer a:hover {
+    color: var(--col-salmon);
+}
+
+footer ul li {
+    padding: 0 0.3125rem;
+    /* margin: 0 0.3125rem; */
+    /* 5px */
+}
+
+footer li.signup-link a {
+    color: var(--col-salmon);
+    border-bottom: 1px solid var(--col-bluegry);
+}
+
+footer li.signup-link a:hover {
+    border-bottom: 1px solid var(--col-salmon);
+}
+
+footer #codeCopy {
+    text-align: center;
+    font-weight: lighter;
+}
+
+footer p i.fas.fa-heart {
+    color: palevioletred;
 }
