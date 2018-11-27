@@ -262,3 +262,14 @@ i.ci {
 .ci.ci-device {
     background-position: -200px 0;
 }
+
+/* --------------------------------------------------------
+   PROJECT FEATURES
+-------------------------------------------------------- */
+#projectFeatures {
+    text-align: center;
+}
+
+#projectFeatures p.lead {
+    margin-bottom: 3rem;
+}
