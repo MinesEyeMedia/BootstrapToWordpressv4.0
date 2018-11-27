@@ -11,3 +11,5 @@ Commit #4 - Coded/Styled 'Opt-In' Section & Pop-up Modal.
 Commit #5 - Coded/Styled 'Boost Your Income' Section.
 
 Commit #6 - Coded/Styled 'Who Should Take This Course' Section.
+
+Commit #7 - Coded/Styled 'Course Features' Section.
