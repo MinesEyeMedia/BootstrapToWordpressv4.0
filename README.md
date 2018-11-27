@@ -15,3 +15,5 @@ Commit #6 - Coded/Styled 'Who Should Take This Course' Section.
 Commit #7 - Coded/Styled 'Course Features' Section.
 
 Commit #8 - Coded/Styled 'Final Project Features' Section.
+
+Commit #9 - Coded/Styled 'Video Featurette' Section.
