@@ -17,3 +17,5 @@ Commit #7 - Coded/Styled 'Course Features' Section.
 Commit #8 - Coded/Styled 'Final Project Features' Section.
 
 Commit #9 - Coded/Styled 'Video Featurette' Section.
+
+Commit #10 - Coded/Styled 'Instructor' Section.

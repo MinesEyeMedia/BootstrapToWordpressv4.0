@@ -209,6 +209,10 @@ section h3 {
     letter-spacing: 0.2px;
 }
 
+.modal-content {
+    background: url(../assets/img/tile.jpg) top left repeat;
+}
+
 .modal-footer p small {
     font-size: 0.625rem;
     text-align: center;
@@ -282,4 +286,122 @@ i.ci {
     background-size: cover;
     text-align: center;
     color: #fff;
+}
+
+/* --------------------------------------------------------
+   INSTRUCTOR
+-------------------------------------------------------- */
+#instructor {
+    background: #fff url(../assets/img/brad-elvis.png) 90% -10px no-repeat;
+}
+
+#instructor #bg-mod {
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    border-radius: 20%;
+}
+
+#instructor h2 {
+    margin: 0;
+}
+
+#instructor p.lead {
+    margin-top: 3.125rem;
+    /* 50px */
+}
+
+.badge.social {
+    background: rgba(204, 204, 204, 0.411);
+    font-size: 1.75rem;
+    /* 28px */
+    height: 2.75rem;
+    /* 44px */
+    width: 2.75rem;
+    /* 44px */
+    text-align: center;
+    line-height: 2.75rem;
+    /* 44px */
+    margin: 0 0.3125rem 0;
+    /* 0 5px 20px 0 */
+    padding: 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.badge.social:hover {
+    background: rgba(204, 204, 204, 0.692);
+}
+
+/* Social Media Links */
+#instructor a.twitter {
+    color: #1da1f2;
+}
+
+#instructor a.facebook {
+    color: #3b5998;
+}
+
+#instructor a.instagram {
+    color: #c32aa3;
+}
+
+#instructor a.linkedin {
+    color: #007bb5;
+}
+
+/* Social Media Hovers */
+#instructor a.twitter:hover {
+    color: #1da1f2;
+}
+
+#instructor a.facebook:hover {
+    color: #3b5998;
+}
+
+#instructor a.instagram:hover {
+    color: #c32aa3;
+}
+
+#instructor a.linkedin:hover {
+    color: #007bb5;
+}
+
+#instructor hr {
+    margin: 3rem 0;
+    /* 48px */
+}
+
+#instructor .num {
+    display: table;
+    font-size: 1.875rem;
+    /* 30px */
+    font-weight: bold;
+    color: #fff;
+    height: 8.75rem;
+    /* 140px */
+    width: 8.75rem;
+    /* 140px */
+    line-height: 1.5rem;
+    /* 24px */
+    text-align: center;
+    background: var(--col-salmon);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+#instructor .num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#instructor .num span {
+    display: block;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: normal;
 }
