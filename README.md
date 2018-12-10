@@ -1,4 +1,4 @@
-Bootstrap 2 Wordpress v4.0
+Bootstrap  Wordpress v4.0
 
 Commit #1 - Initial commit. Basic skeleton built, assets and project directory setup. Header/Navbar built.
 
@@ -25,3 +25,5 @@ Commit #11 - Coded/Styled 'Testimonials' Section.
 Commit #12 - Coded/Styled 'Sign Up' Bottom Section. Added 'Video Featurette' Parallax Effect.
 
 Commit #13 - Coded/Styled 'Footer'. Various tweaks, modal button fixing, nav menu spacing, etc.
+
+Commit #14 - Coded (no styling) 'Blog Content' Section.
