@@ -1,0 +1,38 @@
+.post-comments-badge {
+    height: 4.375rem;
+    width: 4.375rem;
+    /* 70px */
+    position: absolute;
+    top: 1.5625rem;
+    /* 25px */
+    right: 1.25rem;
+    /* 20px */
+    border: none;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: $col-green;
+    display: table;
+    &:hover {
+       background-color: darken($col-green, 5%);
+    }
+}
+
+.post-comments-badge a {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    /* 20px; */
+    text-align: center;
+}
+
+.post-comments-badge i.fas {
+    display: block;
+    font-size: 0.9375rem;
+    /* 15px; */
+    padding: 0;
+    margin-bottom: 0.25rem;
+    /* 4px */
+}

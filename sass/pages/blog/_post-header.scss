@@ -1,0 +1,16 @@
+.post header, .post .post-excerpt {
+    padding: 1.25rem;
+    /* 20px; */
+}
+
+.post header h1, .post header h3 {
+    margin: 0 0 0.9375rem;
+    padding: 0 0 0.9375rem;
+    /* 15px; */
+    border-bottom: 1px solid #ddd;
+}
+
+.post header h1 {
+    font-size: 1.5rem;
+    /* 24px; */
+}

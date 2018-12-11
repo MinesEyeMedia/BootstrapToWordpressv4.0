@@ -29,3 +29,5 @@ Commit #13 - Coded/Styled 'Footer'. Various tweaks, modal button fixing, nav men
 Commit #14 - Coded (no styling) 'Blog Content' Section.
 
 Commit #15 - Converted entire project CSS to SASS (SCSS). Setup SASS directory structure. Coded & converted entire landing/home page into proper SASS. Ammended new relivent CSS file, etc.
+
+Commit #16 - Converted 'Blog' main content and excerpts from CSS to SASS.
