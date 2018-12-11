@@ -3,8 +3,11 @@ body.blog a {
 }
 
 body.blog header h3 a,
-body.blog header .post-details a {
+body.blog header .post-details a,
+body.blog .post-excerpt a,
+body.blog .widget ul li a {
     color: $col-salmon;
+
     &:hover {
         color: darken($col-salmon, 10%);
     }
@@ -12,14 +15,8 @@ body.blog header .post-details a {
 
 body.blog header .post-comments-badge a {
     color: #fff;
+
     &:hover {
         color: #fff;
-    }
-}
-
-body.blog .post-excerpt a {
-    color: $col-salmon;
-    &:hover {
-        color: darken($col-salmon, 10%);
     }
 }

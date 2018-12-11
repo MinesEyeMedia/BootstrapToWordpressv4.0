@@ -31,3 +31,5 @@ Commit #14 - Coded (no styling) 'Blog Content' Section.
 Commit #15 - Converted entire project CSS to SASS (SCSS). Setup SASS directory structure. Coded & converted entire landing/home page into proper SASS. Ammended new relivent CSS file, etc.
 
 Commit #16 - Converted 'Blog' main content and excerpts from CSS to SASS.
+
+Commit #17 - Coded/Styled 'Blog Widget' Section.

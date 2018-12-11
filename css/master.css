@@ -81,21 +81,20 @@ body.blog a {
   text-decoration: none; }
 
 body.blog header h3 a,
-body.blog header .post-details a {
+body.blog header .post-details a,
+body.blog .post-excerpt a,
+body.blog .widget ul li a {
   color: #DD5638; }
   body.blog header h3 a:hover,
-  body.blog header .post-details a:hover {
+  body.blog header .post-details a:hover,
+  body.blog .post-excerpt a:hover,
+  body.blog .widget ul li a:hover {
     color: #c13e21; }
 
 body.blog header .post-comments-badge a {
   color: #fff; }
   body.blog header .post-comments-badge a:hover {
     color: #fff; }
-
-body.blog .post-excerpt a {
-  color: #DD5638; }
-  body.blog .post-excerpt a:hover {
-    color: #c13e21; }
 
 .modal-content {
   background: url("../assets/img/tile.jpg") top left repeat; }
@@ -113,6 +112,29 @@ input {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   color: #fff; }
+
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+textarea {
+  color: #666;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  /* 6px 12px */ }
+
+label {
+  display: block;
+  font-weight: bold; }
 
 #signUp {
   text-align: center;
@@ -432,7 +454,7 @@ blockquote:before {
   padding-bottom: 2.5rem;
   /* 40px; */ }
 
-.post {
+.post, .widget {
   position: relative;
   border: 1px solid #ddd;
   background: #fff;
@@ -523,5 +545,27 @@ blockquote:before {
   padding: 0;
   margin-bottom: 0.25rem;
   /* 4px */ }
+
+.widget {
+  padding: 1.25rem;
+  /* 20px; */ }
+
+.widget h4 {
+  margin: 0 0 0.625rem;
+  padding: 0 0 0.625rem;
+  /* 10px; */
+  border-bottom: 1px solid #ddd; }
+
+.widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.widget ul li {
+  margin: 0 0 0.3125rem;
+  /* 5px; */ }
+  .widget ul li:hover {
+    position: relative;
+    left: 1px; }
 
 /*# sourceMappingURL=master.css.map */
