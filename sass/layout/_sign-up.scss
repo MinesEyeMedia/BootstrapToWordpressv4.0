@@ -1,0 +1,21 @@
+#signUp {
+    text-align: center;
+    background: url('../assets/img/hipster-stuff.jpg') center center repeat fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 5rem 0;
+    /* 140px; */
+}
+
+#signUp h2 {
+    font-weight: normal;
+}
+
+#signUp h2 strong {
+    border-bottom: solid 2px $col-salmon;
+}
+
+#signUp btn {
+    font-size: 1.5rem;
+    /* 24px; */
+}

@@ -1,0 +1,47 @@
+footer {
+    background: $col-bluegry;
+    color: #fff;
+    font-size: 0.75rem;
+    /* 12px; */
+    padding: 0.875rem 0;
+    /* 20px 0 */
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    padding: 0.125rem 0.25rem !important;
+    margin: 0.125rem 1rem !important;
+    &:link, &:visited {
+        color: #fff;
+    }
+    &:hover {
+        color: $col-salmon;
+    }
+}
+
+footer ul li {
+    padding: 0 0.3125rem;
+    /* 5px; */
+}
+
+footer li.signup-link a {
+    color: $col-salmon;
+    border-bottom: 1px solid $col-bluegry;
+    &:hover {
+        border-bottom: 1px solid $col-salmon;
+    }
+}
+
+footer #codeCopy {
+    text-align: center;
+    font-weight: lighter;
+}
+
+footer p i.fas.fa-heart {
+    color: palevioletred;
+}

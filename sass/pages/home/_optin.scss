@@ -1,0 +1,19 @@
+#optin {
+    background: $col-bluegry;
+    padding: 0.75rem 0;
+    /* 20px; */
+    color: #fff;
+    font-size: 1.25rem;
+    /* 20px; */
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+#optin p {
+    margin: 0.4375rem 0 0 0;
+    /* 7px; */
+}
+
+#optin button {
+    letter-spacing: 0.2px;
+}

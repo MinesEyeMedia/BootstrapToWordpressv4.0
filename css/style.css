@@ -5,6 +5,7 @@
 */
 :root {
     --col-green: #70B044;
+    --col-green-hover: #8BC653;
     --col-salmon: #DD5638;
     --col-bluegry: #3E4249;
 }
@@ -545,4 +546,130 @@ footer #codeCopy {
 
 footer p i.fas.fa-heart {
     color: palevioletred;
+}
+
+/* --------------------------------------------------------
+   BLOG STYLES
+-------------------------------------------------------- */
+#primary {
+    padding-top: 2.5rem;
+    /* 40px */
+    padding-bottom: 2.5rem;
+    /* 40px */
+}
+.post {
+    position: relative;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin: 0 0 2.5rem;
+    /* 40px */
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* BLOG FEATURE IMAGE */
+.feature-image {
+    display: table;
+    width: 100%;
+}
+
+.feature-image-default {
+    background: url('../assets/img/stuff-feature.jpg') no-repeat;
+    background-size: cover;
+}
+
+.feature-image-default-alt {
+    background: url('../assets/img/hipster-stuff.jpg') no-repeat;
+    background-size: cover;
+}
+
+.feature-image h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+/* POST HEADER */
+.post header,
+.post .post-excerpt {
+    padding: 1.25rem;
+    /* 20px */
+}
+
+.post header h1,
+.post header h3 {
+    margin: 0 0 0.9375rem;
+    /* 15px */
+    padding: 0 0 0.9375rem;
+    /* 15px */
+    border-bottom: 1px solid #ddd;
+}
+
+.post header h1 {
+    font-size: 1.5rem;
+    /* 24px */
+}
+
+.post-image {
+    height: auto;
+}
+
+/* POST DETAILS */
+.post-details {
+    font-size: 0.75rem;
+    /* 12px */
+    width: 90%
+}
+
+.post-details i.fas {
+    padding-left: 0.625rem;
+    /* 10px */
+}
+
+.post-details i.fas:first-child {
+    padding: 0;
+}
+
+/* POST COMMENTS BADGE */
+.post-comments-badge {
+    height: 4.375rem;
+    width: 4.375rem;
+    /* 70px */
+    position: absolute;
+    top: 1.5625rem;
+    /* 25px */
+    right: 1.25rem;
+    /* 20px */
+    border: none;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: var(--col-green);
+    display: table;
+}
+
+.post-comments-badge a {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.25rem;
+    /* 20px */
+    text-align: center;
+}
+
+.post-comments-badge i.fas {
+    display: block;
+    font-size: 0.9375rem;
+    /* 15px */
+    padding: 0;
+    margin-bottom: 0.25rem;
+    /* 4px */
+}
+
+.post-comments-badge:hover {
+    background-color: var(--col-green-hover);
 }

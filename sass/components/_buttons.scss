@@ -1,0 +1,29 @@
+button, .btn, a.btn {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    color: #fff;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-color: $col-salmon;
+    border-color: $col-salmon-border;
+}
+
+.btn-danger:hover {
+    background-color: darken($col-salmon, 5%);
+    border-color: darken($col-salmon-border, 5%);
+}
+
+.btn-success {
+    background-color: $col-green;
+    border-color: $col-green-border;
+}
+
+.btn-success:hover {
+    background-color: darken($col-green, 5%);
+    border-color: darken($col-green-border, 5%);
+}

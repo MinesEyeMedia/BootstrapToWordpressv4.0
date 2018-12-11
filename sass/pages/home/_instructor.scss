@@ -1,0 +1,111 @@
+#instructor {
+    background: #fff url('../assets/img/brad-elvis.png') 90% -10px no-repeat;
+}
+
+#instructor #bg-mod {
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    border-radius: 20%;
+}
+
+#instructor h2 {
+    margin: 0;
+}
+
+#instructor p.lead {
+    margin-top: 3.125rem;
+    /* 50px; */
+}
+
+.badge.social {
+    background: rgba(204, 204, 204, 0.25);
+    border: 1px solid rgba(204, 204, 204, 0.25);
+    font-size: 1.75rem;
+    /* 28px; */
+    height: 2.75rem;
+    width: 2.75rem;
+    line-height: 2.75rem;
+    /* 44px; */
+    text-align: center;
+    margin: 0 0.3125rem 0;
+    /* 0 5px 0; */
+    padding: 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.badge.social:hover {
+    // background: rgba(204, 204, 204, 0.692);
+    background: #fff;
+}
+
+#instructor a.twitter {
+    color: $col-twitter;
+    &:hover {
+        color: $col-twitter;
+        border: 1px solid $col-twitter;
+    }
+}
+
+#instructor a.facebook {
+    color: $col-facebook;
+    &:hover {
+        color: $col-facebook;
+        border: 1px solid $col-facebook;
+    }
+}
+
+#instructor a.instagram {
+    color: $col-instagram;
+    &:hover {
+        color: $col-instagram;
+        border: 1px solid $col-instagram;
+    }
+}
+
+#instructor a.linkedin {
+    color: $col-linkedin;
+    &:hover {
+        color: $col-linkedin;
+        border: 1px solid $col-linkedin;
+    }
+}
+
+#instructor h3 {
+    margin: 3rem 0;
+    /* 48px; */
+}
+
+#instructor .num {
+    display: table;
+    font-size: 1.875rem;
+    /* 30px; */
+    font-weight: bold;
+    color: #fff;
+    height: 8.75rem;
+    width: 8.75rem;
+    /* 140px; */
+    line-height: 1.5rem;
+    /* 24px; */
+    text-align: center;
+    background: $col-salmon;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+#instructor .num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#instructor .num span {
+    display: block;
+    font-size: 1.25rem;
+    /* 20px; */
+    font-weight: normal;
+}

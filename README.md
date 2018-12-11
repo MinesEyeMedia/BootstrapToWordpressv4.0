@@ -27,3 +27,5 @@ Commit #12 - Coded/Styled 'Sign Up' Bottom Section. Added 'Video Featurette' Par
 Commit #13 - Coded/Styled 'Footer'. Various tweaks, modal button fixing, nav menu spacing, etc.
 
 Commit #14 - Coded (no styling) 'Blog Content' Section.
+
+Commit #15 - Converted entire project CSS to SASS (SCSS). Setup SASS directory structure. Coded & converted entire landing/home page into proper SASS. Ammended new relivent CSS file, etc.
