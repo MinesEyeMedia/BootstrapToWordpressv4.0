@@ -1,9 +1,13 @@
-.post header, .post .post-excerpt {
+.post header,
+.post .post-excerpt,
+.post .post-body,
+#comments .comments-wrap {
     padding: 1.25rem;
     /* 20px; */
 }
 
-.post header h1, .post header h3 {
+.post header h1,
+.post header h3 {
     margin: 0 0 0.9375rem;
     padding: 0 0 0.9375rem;
     /* 15px; */

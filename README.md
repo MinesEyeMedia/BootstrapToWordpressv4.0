@@ -33,3 +33,5 @@ Commit #15 - Converted entire project CSS to SASS (SCSS). Setup SASS directory s
 Commit #16 - Converted 'Blog' main content and excerpts from CSS to SASS.
 
 Commit #17 - Coded/Styled 'Blog Widget' Section.
+
+v0.18.0 - Code/Styled 'Post-Actual' & Comments Sections. Changed version control and sequencing naming convention.

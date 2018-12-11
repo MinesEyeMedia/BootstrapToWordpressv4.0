@@ -5,7 +5,8 @@ body.blog a {
 body.blog header h3 a,
 body.blog header .post-details a,
 body.blog .post-excerpt a,
-body.blog .widget ul li a {
+body.blog .widget ul li a,
+body.blog .post-body a {
     color: $col-salmon;
 
     &:hover {

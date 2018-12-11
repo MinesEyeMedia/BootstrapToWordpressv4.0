@@ -83,12 +83,14 @@ body.blog a {
 body.blog header h3 a,
 body.blog header .post-details a,
 body.blog .post-excerpt a,
-body.blog .widget ul li a {
+body.blog .widget ul li a,
+body.blog .post-body a {
   color: #DD5638; }
   body.blog header h3 a:hover,
   body.blog header .post-details a:hover,
   body.blog .post-excerpt a:hover,
-  body.blog .widget ul li a:hover {
+  body.blog .widget ul li a:hover,
+  body.blog .post-body a:hover {
     color: #c13e21; }
 
 body.blog header .post-comments-badge a {
@@ -454,7 +456,7 @@ blockquote:before {
   padding-bottom: 2.5rem;
   /* 40px; */ }
 
-.post, .widget {
+.post, .widget, #comments {
   position: relative;
   border: 1px solid #ddd;
   background: #fff;
@@ -482,11 +484,15 @@ blockquote:before {
   text-align: center;
   color: #fff; }
 
-.post header, .post .post-excerpt {
+.post header,
+.post .post-excerpt,
+.post .post-body,
+#comments .comments-wrap {
   padding: 1.25rem;
   /* 20px; */ }
 
-.post header h1, .post header h3 {
+.post header h1,
+.post header h3 {
   margin: 0 0 0.9375rem;
   padding: 0 0 0.9375rem;
   /* 15px; */
@@ -545,6 +551,44 @@ blockquote:before {
   padding: 0;
   margin-bottom: 0.25rem;
   /* 4px */ }
+
+body.blog h1.post-actual-title {
+  font-size: 2rem; }
+
+#comments h3 {
+  text-align: center; }
+
+#comments h4 {
+  font-size: 1.3em;
+  /* 130% increase */ }
+
+#comments ol {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+#comments ol li {
+  background: rgba(0, 0, 0, 0.02);
+  padding: 0.625rem 1.25rem;
+  /* 10px 20px */
+  margin: 0.625rem 0;
+  /* 10px; */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.03); }
+
+#comments ol li ol.children {
+  padding: 0;
+  list-style: none;
+  font-size: 0.96em;
+  /* 4% decrease in font size per child. */ }
+
+#leave-comment {
+  margin: 2.5rem 0 0;
+  /* 40px; */
+  padding: 1.25rem 0 0;
+  /* 20px; */ }
 
 .widget {
   padding: 1.25rem;
