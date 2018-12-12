@@ -37,3 +37,5 @@ Commit #17 - Coded/Styled 'Blog Widget' Section.
 v0.18.0 - Code/Styled 'Post-Actual' & Comments Sections. Changed version control and sequencing naming convention.
 
 v.0.19.0 - Coded/Styled 'Resources' Page. Added site-wide media queries. Tweaked SASS color variables. Tweaked SASS link styling.
+
+v0.20.0 - Coded/Styled 'Contact' Page. Updated site-wide button/form styling. Fixed 'home' link in nav menu to properly redirect to actual homepage.
