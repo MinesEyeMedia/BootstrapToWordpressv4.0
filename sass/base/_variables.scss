@@ -1,9 +1,11 @@
 $col-green: #70B044;
+$col-green-border: darken($col-green, 5%);
 $col-green-hover: #8BC653;
 $col-green-hov2: #6A9B3D;
-$col-green-border: rgb(98,155,59);
+
 $col-salmon: #DD5638;
-$col-salmon-border: #D95131;
+$col-salmon-border: darken($col-salmon, 5%);
+
 $col-bluegry: #3E4249;
 
 $col-twitter: #1DA1F2;

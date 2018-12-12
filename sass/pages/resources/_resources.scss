@@ -1,0 +1,15 @@
+section.main-content {
+    padding: 2.5rem 0;
+    /* 40px; */
+}
+
+.resource {
+    width: 31.33333333%;
+    float: left;
+    margin: 0 3% 2.5rem 0;
+    /* 40px */
+}
+
+.resource:nth-child(3n) {
+    margin-right: 0;
+}

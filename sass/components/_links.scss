@@ -1,4 +1,5 @@
-body.blog a {
+body.blog a,
+body.resources h3 a {
     text-decoration: none;
 }
 
@@ -6,7 +7,8 @@ body.blog header h3 a,
 body.blog header .post-details a,
 body.blog .post-excerpt a,
 body.blog .widget ul li a,
-body.blog .post-body a {
+body.blog .post-body a,
+body.resources h3 a {
     color: $col-salmon;
 
     &:hover {
